@@ -1,6 +1,6 @@
 raeume = []
 gesamtflaeche= 0.0
-
+"""erster Versuch"""
 
 while True:
     raum_name =input("Raumname oder ende: ")
