@@ -43,14 +43,11 @@ for raum in raeume:
     name = raum["name"]
     qm2 = raum["quadratmeter"]
 
-    # Ausgabe des Dictionarys mit jedem Durchlauf in der For-Schleife
-    print(f"{name} Quadratmeter: {qm2}")
-
     # addiert die gespeicherten Einträge zur Gesamtfläche der Wohnung
     gesamtflaeche += qm2
 
-
-    print(f"Räume: {raum}, Fläche: {qm2}")
+    # Ausgabe des Dictionarys mit jedem Durchlauf in der For-Schleife
+    print(f"{name}, Fläche: {qm2}")
 
 print(f"Gesamtfläche: {gesamtflaeche}qm2")
 
